@@ -1,0 +1,23 @@
+{
+  "name": "ableton-save",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "clean": "bun ./scripts/clean.ts",
+    "poc": "bun ./scripts/combine.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pako": "^2.0.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.10",
+    "fast-xml-parser": "^4.4.1",
+    "pako": "^2.1.0",
+    "xml-formatter": "^3.6.3",
+    "xpath": "^0.0.34"
+  }
+}
